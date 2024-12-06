@@ -1,6 +1,6 @@
 # Fine-Tuning LLaMA-3 for Psychology Question Answering Using LoRA and Unsloth
 
-This repository provides a comprehensive guide to fine-tuning the **LLaMA-3** language model for psychology-focused question answering using **LoRA (Low-Rank Adaptation)** and **Unsloth**. By following this notebook, you will learn how to efficiently adapt a large language model for a specialized task in psychology, applyig advanced techniques for memory-efficient fine-tuning.
+This repository provides a comprehensive guide to fine-tuning the **LLaMA-3** language model for psychology-focused question answering using **LoRA (Low-Rank Adaptation)** and **Unsloth**. By following this notebook, you will learn how to efficiently adapt a large language model for a specialized task in psychology, applying advanced techniques for memory-efficient fine-tuning.
 
 Whether you're a machine learning enthusiast or a psychology researcher, this guide equips you with the tools and knowledge to build a robust question-answering system.
 
