@@ -14,7 +14,7 @@ Whether you're a machine learning enthusiast or a psychology researcher, this gu
 ## Libraries Used
 
 This notebook utilizes the following libraries to enhance efficiency and effectiveness:
-- **[Unsloth](https://github.com/):** A framework for managing and fine-tuning large models.
+- **[Unsloth][(https://unsloth.ai/)]:** A framework for managing and fine-tuning large models.
 - **[Xformers](https://github.com/facebookresearch/xformers):** Optimized attention mechanisms for handling large sequences.
 - **[TRL (Transformers Reinforcement Learning)](https://huggingface.co/transformers):** Tools for reinforcement learning-based model tuning.
 - **[PEFT (Parameter Efficient Fine-Tuning)](https://huggingface.co/transformers):** Memory-efficient fine-tuning methodology.
