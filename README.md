@@ -4,7 +4,13 @@ This repository provides a comprehensive guide to fine-tuning the **LLaMA-3** la
 
 Whether you're a machine learning enthusiast or a psychology researcher, this guide equips you with the tools and knowledge to build a robust question-answering system.
 
-## Features
+### Why Psychology?
+Psychology involves complex concepts and nuanced language, making it an ideal candidate for AI-powered solutions. This project focuses on creating a fine-tuned model capable of understanding psychology-specific queries and providing accurate, context-aware answers. This could have applications in:
+- **Educational tools** for psychology students.
+- **Research assistance** for summarizing or analyzing psychological studies.
+- **Mental health support systems** for preliminary guidance.
+
+## Details
 
 - **Step-by-step implementation:** Detailed instructions for fine-tuning the LLaMA-3 model.
 - **LoRA Integration:** Memory-efficient fine-tuning by optimizing only a subset of model parameters.
