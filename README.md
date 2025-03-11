@@ -115,7 +115,7 @@ We’d like to thank the contributors who make this repository better. Here are 
     <img src="https://avatars.githubusercontent.com/u/125603818?v=4" width="100" height="100" alt="Contributor 1" style="border-radius: 50%;"/>
   </a>
     <a href="https://github.com/walidamamou" target="_blank">
-    <img src="https://miro.medium.com/v2/resize:fit:2400/1*SseHj3PQNbQm8a4E9ccOSg.jpeg" width="100" height="100" alt="Contributor 1" style="border-radius: 50%;"/>
+    <img src="https://www.f6s.com/content-resource/profiles/2856310_th1.jpg" width="100" height="100" alt="Contributor 1" style="border-radius: 50%;"/>
   </a>
 </div>
 
