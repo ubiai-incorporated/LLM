@@ -3,7 +3,7 @@
 
 Welcome to the official **ubiai-incorporated/LLM** repository! This repository serves as the heart of **Ubiai**. Our mission is to make Generative artificial intelligence more accessible, provide robust resources, and support creativity in every aspect of AI development.
 
-### 🧠 **About Ubiai**
+## 🧠 **About Ubiai**
 
 At **Ubiai**, we are dedicated to advancing the capabilities of **Large Language Models (LLMs)**. We aim to create tools, resources, and educational content to foster innovation in both technical professionals and creatives alike.
 
@@ -15,7 +15,7 @@ This repository contains a range of valuable assets, including:
 - **Guides** for fine-tuning LLMs
 - **White papers** on cutting-edge AI developments
 
-### 📂 **Repository Structure**
+## 📂 **Repository Structure**
 
 To make sure everything is well-organized, here’s a quick breakdown of the structure of this repository:
 
@@ -41,17 +41,17 @@ To make sure everything is well-organized, here’s a quick breakdown of the str
 
 Each directory is organized to serve a unique purpose, from educational materials to implementation code. This structure will make it easy for anyone to access and contribute.
 
-### 🌍 **Getting Started**
+## 🌍 **Getting Started**
 
 We believe that a welcoming and comprehensive starting point is crucial for new users. Follow these steps to get up and running:
 
-#### 1. Clone the Repository:
+### 1. Clone the Repository:
 To clone the repository to your local machine, run:
 ```bash
 git clone https://github.com/ubiai-incorporated/LLM.git
 ```
 
-#### 2. Set Up Your Environment:
+### 2. Set Up Your Environment:
 For most of the code to work, you’ll need Python 3.7+ and **PyTorch** installed. We recommend creating a **virtual environment** for ease of use.
 
 To set up your environment, run:
@@ -61,10 +61,10 @@ source llm-env/bin/activate # On Windows, use llm-env\Scriptsctivate
 pip install -r requirements.txt
 ```
 
-#### 3. Run Notebooks:
+### 3. Run Notebooks:
 We’ve provided Jupyter notebooks and Google Colab links to get you started with LLMs. Simply navigate to the **/notebooks** directory and open the notebooks with your preferred editor.
 
-### 📘 **Learning Materials**
+## 📘 **Learning Materials**
 
 Whether you're a beginner or an expert, we’ve organized learning materials to help you dive deep into **LLMs**. Here’s a breakdown of the content:
 
@@ -80,7 +80,7 @@ Whether you're a beginner or an expert, we’ve organized learning materials to 
 - **Notebooks**: [Notebooks Directory](#)  
   Hands-on, interactive learning with Jupyter and Google Colab notebooks covering various tasks, including **model training**, **fine-tuning**, and **deployment**.
 
-### 🔧 **Resources and Documentation**
+## 🔧 **Resources and Documentation**
 
 We believe that great documentation is key to making complex models more approachable. Here’s where you can find extensive guides and research papers:
 
@@ -93,7 +93,7 @@ We believe that great documentation is key to making complex models more approac
 - **Whitepapers**: [Whitepapers Directory](#)  
   Explore the theory and science behind state-of-the-art LLM architectures, including detailed explanations and findings.
 
-### ⚙️ **Training and Running Models**
+## ⚙️ **Training and Running Models**
 
 In this repository, you’ll find **training scripts** to train models from scratch, as well as tools for preprocessing data and running inference on your models.
 
@@ -105,7 +105,7 @@ Here are some key code components:
 
 - **Utility Scripts**: Utility functions for model evaluation, monitoring, and reporting.
 
-### 🚀 **Contributing**
+## 🚀 **Contributing**
 
 We encourage contributions from the community! Whether it’s submitting bug fixes, adding new resources, or sharing your insights, there’s always room to improve the project.
 
@@ -116,13 +116,13 @@ Here are a few ways you can contribute:
 
 We’ll review your PR promptly and provide feedback.
 
-### 📑 **License**
+## 📑 **License**
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-### 🚀 **Join Us on Social Media**
+## 🚀 **Join Us on Social Media**
 
 Stay connected with **Ubiai** and be part of our growing AI community:
 
@@ -132,6 +132,6 @@ Stay connected with **Ubiai** and be part of our growing AI community:
 
 ---
 
-### 💬 **Feedback and Support**
+## 💬 **Feedback and Support**
 
 If you have any questions, issues, or suggestions, feel free to open an issue in the repository, or reach out to us directly on our social channels.
