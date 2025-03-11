@@ -111,9 +111,15 @@ We’ll review your PR promptly and provide feedback.
 We’d like to thank the contributors who make this repository better. Here are some of our key contributors:
 
 <div align="center">
-  
-  <img src="https://avatars.githubusercontent.com/u/125603818?v=4" width="100" height="100" style="border-radius: 50%; margin: 5px;" alt="Contributor 1">
-
+  <a href="https://github.com/Contributor1" target="_blank">
+    <img src="https://avatars.githubusercontent.com/u/125603818?v=4" width="100" height="100" alt="Contributor 1" style="border-radius: 50%;"/>
+  </a>
+  <a href="https://github.com/MelekMessoussi" target="_blank">
+    <img src="https://avatars.githubusercontent.com/u/MelekMessoussi?v=4" width="100" height="100" alt="Contributor 2" style="border-radius: 50%;"/>
+  </a>
+  <a href="https://github.com/username3" target="_blank">
+    <img src="https://github.com/username3.png" width="100" height="100" alt="Contributor 3" style="border-radius: 50%;"/>
+  </a>
 </div>
 
 
