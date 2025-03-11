@@ -44,10 +44,13 @@ Each directory is organized to serve a unique purpose, from educational material
 ## 📋 **Prerequisites**
 
 This repository is designed for all categories of users, from beginners to advanced professionals.
+<div align="center">
 
-| **Skills**                                                                         | **Hardware**                                                                                 |
-|------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| Basic understanding of Python and Machine Learning                                 | Any modern laptop/workstation will do the job.                                               |
+| **Skills**                               | **Hardware**                                       |
+|------------------------------------------|----------------------------------------------------|
+| Basic understanding of Python and Machine Learning | Any modern laptop/workstation will do the job.     |
+
+</div>
 
 ### Participation:
 **Open and Free**: This is an open-source repository, and participation is completely voluntary and self-paced. Everything is free of charge, and resources are freely accessible here.
@@ -71,7 +74,6 @@ python -m venv llm-env
 source llm-env/bin/activate # On Windows, use llm-env\Scriptsctivate
 pip install -r requirements.txt
 ```
-
 ### 3. Run Notebooks:
 We’ve provided Jupyter notebooks and Google Colab links to get you started with LLMs. Simply navigate to the **/notebooks** directory and open the notebooks with your preferred editor.
 
@@ -90,11 +92,6 @@ Whether you're a beginner or an expert, we’ve organized learning materials to 
 
 - **Notebooks**: [Notebooks Directory](#)  
   Hands-on, interactive learning with Jupyter and Google Colab notebooks covering various tasks, including **model training**, **fine-tuning**, and **deployment**.
-
-
-## ⚙️ **Training and Running Models**
-
-In this repository, you’ll find **training Notebooks** to train models from scratch, as well as tools for preprocessing data and running inference on your models.
 
 
 ## 🚀 **Contributing**
