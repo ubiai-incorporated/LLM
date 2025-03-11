@@ -132,7 +132,9 @@ If you're ready to take your knowledge to the next level, our guide **An introdu
 Written by AI professionals who’ve been in the trenches, this book gives you a behind-the-scenes look at the challenges and opportunities AI presents. We’ve worked hard to make the complex world of LLMs easy to follow without skipping the important details. Grab Your Copy Today! Don't miss out on your chance to master AI and become a leader in this field.
 
 <div align="center">
+  
   [![Check out the full guide here](https://img.shields.io/badge/Check%20out%20the%20full%20guide%20here-brightgreen?style=for-the-badge)](https://ubiai.gitbook.io/llm-guide)
+  
 </div>
 
 
