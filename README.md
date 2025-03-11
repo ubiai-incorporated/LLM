@@ -1,11 +1,11 @@
 
 # Welcome to the **ubiai-incorporated/LLM** Repository!
 
-Welcome to the official **ubiai-incorporated/LLM** repository! This repository serves as the heart of **Ubiai**. Our mission is to make powerful machine learning models more accessible, provide robust resources, and support creativity in every aspect of AI development.
+Welcome to the official **ubiai-incorporated/LLM** repository! This repository serves as the heart of **Ubiai**. Our mission is to make Generative artificial intelligence more accessible, provide robust resources, and support creativity in every aspect of AI development.
 
 ### 🧠 **About Ubiai**
 
-At **Ubiai**, we are dedicated to advancing the capabilities of **Large Language Models (LLMs)**. We aim to create tools, resources, and educational content to foster innovation, making AI more accessible to both technical professionals and creatives alike.
+At **Ubiai**, we are dedicated to advancing the capabilities of **Large Language Models (LLMs)**. We aim to create tools, resources, and educational content to foster innovation in both technical professionals and creatives alike.
 
 This repository contains a range of valuable assets, including:
 - **YouTube tutorials** to guide you through LLMs and AI concepts
