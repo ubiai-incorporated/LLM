@@ -46,7 +46,7 @@ This repository is designed for all categories of users, from beginners to advan
 
 <div align="center">
 
-|                 |                                                                                                        |
+                                                                                                   
 |-----------------|--------------------------------------------------------------------------------------------------------|
 | **Skills**      | A basic understanding of Python and Machine Learning is recommended. For beginners, many resources are available to help you build this foundation.                     |
 |                 |                                                                                                        |
