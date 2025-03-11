@@ -40,18 +40,18 @@ To make sure everything is well-organized, here’s a quick breakdown of the str
 
 Each directory is organized to serve a unique purpose, from educational materials to implementation code. This structure will make it easy for anyone to access and contribute.
 
-### 📋 Prerequisites
+## 📋 Prerequisites
 
 This repository is designed for all categories of users, from beginners to advanced professionals. Below are the prerequisites to help you get started:
 
 <div align="center">
 
-| **Skills**      | A basic understanding of Python and Machine Learning is recommended. For beginners, many resources are available to help you build this foundation.                     |
-|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Hardware**    | Any modern laptop or workstation will do the job. While more powerful hardware will help with larger models, the materials here are designed to be flexible and accessible. |
-| **Participation** | This repository is open and free for everyone. Participation is self-paced, and all resources are freely accessible. Whether you’re a beginner or an expert, you can learn at your own pace, with no cost involved. |
+| **Skills**                                | **Hardware**                                 | **Participation**                                                                                 |
+|-------------------------------------------|---------------------------------------------|--------------------------------------------------------------------------------------------------|
+| A basic understanding of Python and Machine Learning is recommended. For beginners, many resources are available to help you build this foundation. | Any modern laptop or workstation will do the job. While more powerful hardware will help with larger models, the materials here are designed to be flexible and accessible. | This repository is open and free for everyone. Participation is self-paced, and all resources are freely accessible. Whether you’re a beginner or an expert, you can learn at your own pace, with no cost involved. |
 
 </div>
+
 
 
 ## 🌍 **Getting Started**
