@@ -41,6 +41,17 @@ To make sure everything is well-organized, here’s a quick breakdown of the str
 
 Each directory is organized to serve a unique purpose, from educational materials to implementation code. This structure will make it easy for anyone to access and contribute.
 
+## 📋 **Prerequisites**
+
+This repository is designed for all categories of users, from beginners to advanced professionals.
+
+| **Skills**                               | **Hardware**                                       |
+|------------------------------------------|----------------------------------------------------|
+| Basic understanding of Python and Machine Learning | Any modern laptop/workstation will do the job.     |
+
+### Participation:
+**Open and Free**: This is an open-source repository, and participation is completely voluntary and self-paced. Everything is free of charge, and resources are freely accessible here.
+
 ## 🌍 **Getting Started**
 
 We believe that a welcoming and comprehensive starting point is crucial for new users. Follow these steps to get up and running:
@@ -80,30 +91,11 @@ Whether you're a beginner or an expert, we’ve organized learning materials to 
 - **Notebooks**: [Notebooks Directory](#)  
   Hands-on, interactive learning with Jupyter and Google Colab notebooks covering various tasks, including **model training**, **fine-tuning**, and **deployment**.
 
-## 🔧 **Resources and Documentation**
-
-We believe that great documentation is key to making complex models more approachable. Here’s where you can find extensive guides and research papers:
-
-- **Fine-tuning Guides**: [Fine-Tuning Guides Directory](#)  
-  Learn how to fine-tune pre-trained LLMs for your specific tasks using our step-by-step guides.
-
-- **LLM Research Papers**: [Research Papers Directory](#)  
-  Deep dive into cutting-edge AI research with links to published papers and ongoing projects.
-
-- **Whitepapers**: [Whitepapers Directory](#)  
-  Explore the theory and science behind state-of-the-art LLM architectures, including detailed explanations and findings.
 
 ## ⚙️ **Training and Running Models**
 
-In this repository, you’ll find **training scripts** to train models from scratch, as well as tools for preprocessing data and running inference on your models.
+In this repository, you’ll find **training Notebooks** to train models from scratch, as well as tools for preprocessing data and running inference on your models.
 
-Here are some key code components:
-
-- **Training Scripts**: Located in `/codes/training-scripts`, these scripts will help you get your models up and running.
-  
-- **Preprocessing Scripts**: Located in `/codes/preprocessing-scripts`, these scripts will assist with data processing for training and fine-tuning LLMs.
-
-- **Utility Scripts**: Utility functions for model evaluation, monitoring, and reporting.
 
 ## 🚀 **Contributing**
 
