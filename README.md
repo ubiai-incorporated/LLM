@@ -65,16 +65,17 @@ git clone https://github.com/ubiai-incorporated/LLM.git
 ```
 
 ### 2. Set Up Your Environment:
-For most of the code to work, you’ll need Python 3.7+ and **PyTorch** installed. We recommend creating a **virtual environment** for ease of use.
+For most of the code to work we recommend creating a **virtual environment** for ease of use.
 
 To set up your environment, run:
 ```bash
 python -m venv llm-env
 source llm-env/bin/activate # On Windows, use llm-env\Scriptsctivate
-pip install -r requirements.txt
 ```
+and start learning
+
 ### 3. Run Notebooks:
-We’ve provided Jupyter notebooks and Google Colab links to get you started with LLMs. Simply navigate to the **/notebooks** directory and open the notebooks with your preferred editor.
+We’ve provided notebooks to get you started with LLMs. Simply navigate to the **/notebooks** directory and run the notebooks locallly (you can also use them on collab if you wish).
 
 ## 📘 **Learning Materials**
 
@@ -90,8 +91,7 @@ Whether you're a beginner or an expert, we’ve organized learning materials to 
   Catch up on the latest blog posts about LLM trends, research, and practical applications in AI development.
 
 - **Notebooks**: [Notebooks Directory](#)  
-  Hands-on, interactive learning with Jupyter and Google Colab notebooks covering various tasks, including **model training**, **fine-tuning**, and **deployment**.
-
+  Hands-on, interactive learning with Google Colab notebooks covering various tasks, including **model training**, **fine-tuning**, and **deployment**.
 
 ## 🚀 **Contributing**
 
@@ -104,11 +104,17 @@ Here are a few ways you can contribute:
 
 We’ll review your PR promptly and provide feedback.
 
-## 📑 **License**
+## 👥 **Contributors**
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+We’d like to thank the contributors who make this repository better. Here are some of our key contributors:
 
----
+<div align="center">
+  <img src="https://github.com/username1.png" width="100" height="100" style="border-radius: 50%; margin: 5px;">
+  <img src="https://github.com/username2.png" width="100" height="100" style="border-radius: 50%; margin: 5px;">
+  <img src="https://github.com/username3.png" width="100" height="100" style="border-radius: 50%; margin: 5px;">
+</div>
+
+Thank you for your amazing contributions!
 
 ## 🚀 **Join Us on Social Media**
 
@@ -117,8 +123,6 @@ Stay connected with **Ubiai** and be part of our growing AI community:
 - **LinkedIn**: [@ubiai](https://linkedin.com/company/ubiai)
 - **Twitter**: [@ubiai_ai](https://twitter.com/ubiai_ai)
 - **Medium**: [@ubiai-incorporated](https://medium.com/@ubiai-incorporated)
-
----
 
 ## 💬 **Feedback and Support**
 
