@@ -27,14 +27,6 @@ Each notebook is self-contained and richly commented, designed to guide you thro
 
 We recommend starting with the introductory notebooks and progressing to the advanced topics as you build your knowledge.
 
-## 🚀 Contributing
+## 💬 Ask For Support
 
-We welcome your contributions to improve and expand these resources. To contribute:
-
-1. Fork the repository.
-2. Create a new branch for your changes.
-3. Submit a pull request with a clear explanation of your additions or modifications.
-
-## 💬 Feedback and Support
-
-If you encounter any issues or have questions about the notebooks, please open an issue in the repository or reach out via our social channels. We're here to support your journey into the world of LLMs.
+If you encounter any issues or have questions about the notebooks, please open an issue in the repository or reach out via our social channels. We're here to support you.
