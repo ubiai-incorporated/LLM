@@ -131,7 +131,8 @@ Thank you for your amazing contributions!
 
 If you're ready to take your knowledge to the next level, our guide **An introduction to Large Language Models** is the perfect resource to learn the fascinating details behind AI. This guide will provides you with a structured approach to mastering AI concepts and techniques.
 
-![image](https://ubiai.gitbook.io/llm-guide/~gitbook/ogimage/XceSy0RTkSub9tfO207c)
+![image](https://github.com/user-attachments/assets/048c071a-38ea-4d1f-b8c1-f15fb06c2fe8)
+
 
 
 ### Why Read This Guide?
