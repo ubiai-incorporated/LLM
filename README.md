@@ -146,9 +146,9 @@ Written by AI professionals who’ve been in the trenches, this book gives you a
 
 Stay connected with **Ubiai** and be part of our growing AI community:
 
-- **Blog**: [@ubiai_ai](https://twitter.com/ubiai_ai)
-- **LinkedIn**: [@ubiai](https://linkedin.com/company/ubiai)
-- **Email**: [@ubiai-incorporated](https://medium.com/@ubiai-incorporated)
+- **Blog**: [@ubiai_Blog](https://ubiai.tools/text-annotation-tool-leader-ubiai-blog/)
+- **LinkedIn**: [@ubiai_Social](https://www.linkedin.com/company/ubiai/posts/?feedView=all)
+- **Email**: admin@ubiai.tools
 
 ## 💬 **Feedback and Support**
 
