@@ -140,9 +140,9 @@ Written by AI professionals who’ve been in the trenches, this book gives you a
 
 Stay connected with **Ubiai** and be part of our growing AI community:
 
+- **Blog**: [@ubiai_ai](https://twitter.com/ubiai_ai)
 - **LinkedIn**: [@ubiai](https://linkedin.com/company/ubiai)
-- **Twitter**: [@ubiai_ai](https://twitter.com/ubiai_ai)
-- **Medium**: [@ubiai-incorporated](https://medium.com/@ubiai-incorporated)
+- **Email**: [@ubiai-incorporated](https://medium.com/@ubiai-incorporated)
 
 ## 💬 **Feedback and Support**
 
