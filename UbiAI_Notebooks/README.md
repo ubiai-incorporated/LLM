@@ -13,20 +13,43 @@ In this folder, you'll find a collection of well-documented notebooks designed t
 
 Whether you're a beginner eager to learn the basics or an advanced practitioner looking to refine your skills, these notebooks provide valuable insights and actionable code.
 
-## **Running The Notebooks**
-To run these notebooks in a cloud environment, simply open the files using Google Colab. You can either upload the notebook or use the “Open in Colab” option if provided.
+## 🧑‍💻 How You Will Learn
 
-## 🔧 How To Learn From These Notebooks
+This section contains practical examples that will guide you through key concepts of working with LLMs. The materials in these notebooks are designed to be self-paced, and you can progress through them at your own speed. Each notebook is self-contained and richly commented, designed to guide you through various aspects of LLMs.
 
-Each notebook is self-contained and richly commented, designed to guide you through various aspects of LLMs:
+You will:
 
-- **Introduction to LLMs:** Basics of model architecture and usage.
-- **Step-by-step Walkthroughs:** Practical examples of use cases.
-- **Performance evaluation:** Techniques for evaluating and improving model outputs.
-- **Deployment Strategies:** Approaches for putting models into production.
+- **Learn by doing**: Each notebook provides hands-on lessons with working code examples. You can easily replicate the code and experiment with your own setups.
+- **Work with real-world scenarios**: Learn how to apply LLMs to practical use cases, from simple analysis to more advanced applications like RAG systems.
+- **Expand your knowledge**: As you explore these notebooks, you’ll encounter both basic principles and advanced techniques, giving you a deep understanding of LLMs and their capabilities.
 
 We recommend starting with the introductory notebooks and progressing to the advanced topics as you build your knowledge.
 
+## 📚 Notebooks Breakdown
+
+Below is a list of the notebooks and the key concepts each one covers. You can progress through these notebooks in order, or jump directly to a topic that interests you.
+
+| **Lesson** | **Category**             | **Description**                                                                 | **Source Code**              |
+|------------|--------------------------|---------------------------------------------------------------------------------|------------------------------|
+| 1          | Model Exploration         | Understand pre-trained LLMs and how to load and test them.                       | `/notebooks/model_exploration`|
+| 2          | Data Generation & Processing | Process and generate datasets for training LLMs.                                 | `/notebooks/data_processing`  |
+| 3          | Fine-Tuning               | Learn techniques for fine-tuning LLMs on custom data.                            | `/notebooks/fine_tuning`      |
+| 4          | Performance Evaluation    | Evaluate the performance of LLMs based on different metrics.                     | `/notebooks/evaluation`       |
+| 5          | Advanced Applications     | Explore applications like RAG, agent-based models, and more.                    | `/notebooks/advanced_apps`    |
+
+
+## **Running The Notebooks**
+To run these notebooks in a cloud environment, simply open the files using Google Colab. You can either upload the notebook or use the “Open in Colab” option if provided.
+
+
 ## 💬 Ask For Support
 
-If you encounter any issues or have questions about the notebooks, please open an issue in the repository or reach out via our social channels. We're here to support you.
+Have questions or encountering issues? We are here to help!
+
+If you face any problems or need clarification, open a GitHub issue for:
+
+- **Questions about the notebooks**
+- **Technical troubleshooting**
+- **Clarification of concepts**
+
+We encourage you to provide as much detail as possible so we can assist you effectively.
