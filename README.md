@@ -1,7 +1,7 @@
 
 # Welcome to the **ubiai-incorporated/LLM** Repository!
 
-Welcome to the official **ubiai-incorporated/LLM** repository! This repository serves as the heart of **Ubiai**, a cutting-edge AI research and development organization. Our mission is to make powerful machine learning models more accessible, provide robust resources, and support creativity in every aspect of AI development.
+Welcome to the official **ubiai-incorporated/LLM** repository! This repository serves as the heart of **Ubiai**. Our mission is to make powerful machine learning models more accessible, provide robust resources, and support creativity in every aspect of AI development.
 
 ### 🧠 **About Ubiai**
 
