@@ -120,11 +120,9 @@ Thank you for your amazing contributions!
 
 If you're ready to take your knowledge to the next level, our guide **An introduction to Large Language Models** is the perfect resource to learn the fascinating details behind AI. This guide will provides you with a structured approach to mastering AI concepts and techniques.
 
-### Why Read This Book?
+### Why Read This Guide?
 
-Written by AI professionals who’ve been in the trenches, this book gives you a behind-the-scenes look at the challenges and opportunities AI presents. We’ve worked hard to make the complex world of LLMs easy to follow without skipping the important details.
-
-#### Grab Your Copy Today! Don't miss out on your chance to master AI and become a leader in this transformative field.
+Written by AI professionals who’ve been in the trenches, this book gives you a behind-the-scenes look at the challenges and opportunities AI presents. We’ve worked hard to make the complex world of LLMs easy to follow without skipping the important details. Grab Your Copy Today! Don't miss out on your chance to master AI and become a leader in this field.
 
 ## 🚀 **Join Us on Social Media**
 
