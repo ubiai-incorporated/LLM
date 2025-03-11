@@ -72,7 +72,7 @@ For most of the code to work we recommend creating a **virtual environment** for
 To set up your environment, run:
 ```bash
 python -m venv llm-env
-source llm-env/bin/activate # On Windows, use llm-env\Scriptsctivate
+source llm-env/bin/activate # On Windows, use llm-env\Scripts\activate
 ```
 and start learning
 
