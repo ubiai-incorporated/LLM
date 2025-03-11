@@ -114,8 +114,11 @@ We’d like to thank the contributors who make this repository better. Here are 
   <a href="https://github.com/MelekMessoussi" target="_blank">
     <img src="https://avatars.githubusercontent.com/u/125603818?v=4" width="100" height="100" alt="Contributor 1" style="border-radius: 50%;"/>
   </a>
-    <a href="https://github.com/walidamamou" target="_blank">
+  <a href="https://github.com/walidamamou" target="_blank">
     <img src="https://www.f6s.com/content-resource/profiles/2856310_th1.jpg" width="100" height="100" alt="Contributor 1" style="border-radius: 50%;"/>
+  </a>
+  <a href="https://github.com/yasmineatrous" target="_blank">
+    <img src="https://avatars.githubusercontent.com/u/114831078?v=4" width="100" height="100" alt="Contributor 1" style="border-radius: 50%;"/>
   </a>
 </div>
 
