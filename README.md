@@ -45,9 +45,9 @@ Each directory is organized to serve a unique purpose, from educational material
 
 This repository is designed for all categories of users, from beginners to advanced professionals.
 
-| **Skills**                               | **Hardware**                                       |
-|------------------------------------------|----------------------------------------------------|
-| Basic understanding of Python and Machine Learning | Any modern laptop/workstation will do the job.     |
+| **Skills**                                                                         | **Hardware**                                                                                 |
+|------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| Basic understanding of Python and Machine Learning                                 | Any modern laptop/workstation will do the job.                                               |
 
 ### Participation:
 **Open and Free**: This is an open-source repository, and participation is completely voluntary and self-paced. Everything is free of charge, and resources are freely accessible here.
