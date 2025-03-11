@@ -3,7 +3,7 @@
 
 # Welcome to the **ubiai-incorporated/LLM** Repository!
 
-# **All about fine-tuning, annotating, and deploying Large Language Models using best practices.**
+### **All about fine-tuning, annotating, and deploying Large Language Models using best practices.**
 
 ![image](https://github.com/user-attachments/assets/5807cfe5-2321-4cc9-80a3-ae23cc228c9d)
 
