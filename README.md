@@ -13,7 +13,6 @@ This repository contains a range of valuable assets, including:
 - **Blog posts** and **articles** to help you stay updated on the latest trends and research
 - **Notebooks** for hands-on learning and experimentation
 - **Guides** for fine-tuning LLMs
-- **White papers** on cutting-edge AI developments
 
 ## 📂 **Repository Structure**
 
