@@ -111,8 +111,8 @@ We’ll review your PR promptly and provide feedback.
 We’d like to thank the contributors who make this repository better. Here are some of our key contributors:
 
 <div align="center">
-  <img src="https://github.com/username1.png" width="100" height="100" style="border-radius: 50%; margin: 5px;">
-  <img src="https://github.com/username2.png" width="100" height="100" style="border-radius: 50%; margin: 5px;">
+  <img src="https://avatars.githubusercontent.com/u/125603818?v=4" width="100" height="100" style="border-radius: 50%; margin: 5px;">
+  <img src="https://github.com/MelekMessoussi" width="100" height="100" style="border-radius: 50%; margin: 5px;">
   <img src="https://github.com/username3.png" width="100" height="100" style="border-radius: 50%; margin: 5px;">
 </div>
 
