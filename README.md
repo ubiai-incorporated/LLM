@@ -5,7 +5,6 @@
 
 ![image](https://github.com/user-attachments/assets/5807cfe5-2321-4cc9-80a3-ae23cc228c9d)
 
-## **All about fine-tuning, annotating, and deploying Large Language Models using best practices.**
 </div>
 
 Welcome to the official **ubiai-incorporated/LLM** repository! This repository serves as the heart of **Ubiai**. Our mission is to make Generative artificial intelligence more accessible, provide robust resources, and support creativity in every aspect of AI development.
