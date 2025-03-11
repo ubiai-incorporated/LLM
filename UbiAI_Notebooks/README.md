@@ -31,11 +31,8 @@ Below is a list of the notebooks and the key concepts each one covers. You can p
 
 | **Lesson** | **Category**             | **Description**                                                                 | **Source Code**              |
 |------------|--------------------------|---------------------------------------------------------------------------------|------------------------------|
-| 1          | Model Exploration         | Understand pre-trained LLMs and how to load and test them.                       | `/notebooks/model_exploration`|
-| 2          | Data Generation & Processing | Process and generate datasets for training LLMs.                                 | `/notebooks/data_processing`  |
-| 3          | Fine-Tuning               | Learn techniques for fine-tuning LLMs on custom data.                            | `/notebooks/fine_tuning`      |
-| 4          | Performance Evaluation    | Evaluate the performance of LLMs based on different metrics.                     | `/notebooks/evaluation`       |
-| 5          | Advanced Applications     | Explore applications like RAG, agent-based models, and more.                    | `/notebooks/advanced_apps`    |
+| 1          |        | U                  | |
+
 
 
 ## **Running The Notebooks**
