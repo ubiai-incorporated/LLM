@@ -63,7 +63,10 @@ This repository is designed for all categories of users, from beginners to advan
 </div>
 
 
+<div align="center">
+![image](https://github.com/user-attachments/assets/19828cbd-6235-4ac2-a85e-5af94e5d8901)
 
+</div>
 
 ## 🌍 **Getting Started**
 
@@ -126,6 +129,11 @@ We’d like to thank the contributors who make this repository better. Here are 
 </div>
 
 Thank you for your amazing contributions!
+
+<div align="center">
+![image](https://github.com/user-attachments/assets/19828cbd-6235-4ac2-a85e-5af94e5d8901)
+
+</div>
 
 ## 📚 **Next Step?: A Comprehensive Guide**
 
