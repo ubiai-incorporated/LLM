@@ -33,8 +33,11 @@ Learn how to fine-tune Qwen2.5 VL to extract structured information from documen
 ## 📌 Fine-Tuning Qwen for Reliable Information Extraction from Documents  
 A step-by-step guide on making Qwen more reliable for document understanding tasks.  
 
-[![Fine-Tuning Qwen](https://img.youtube.com/vi/VIDEO_ID_4/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_4)  
-👉 [Watch on YouTube](https://www.youtube.com/watch?v=VIDEO_ID_4)  
+<div align="center">  
+  <a href="https://www.youtube.com/watch?v=WbaYvZc4B1o&t=5s">  
+    <img src="https://img.youtube.com/vi/WbaYvZc4B1o/0.jpg" alt="Fine-Tuning LLaMA 3" width="600">  
+  </a>  
+</div>  
 
 ---
 
