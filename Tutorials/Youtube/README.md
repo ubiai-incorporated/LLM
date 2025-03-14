@@ -1,11 +1,9 @@
 # 🎥 YouTube Tutorials  
 
-Welcome to the **YouTube Tutorials** section of the **Ubiai Incorporated LLM** repository! This section provides video walkthroughs for various LLM-related topics, guiding you through fine-tuning, retrieval-augmented generation (RAG), agentic reasoning, and more.  
-
+Welcome to the **YouTube Tutorials** section of the **Ubiai Incorporated LLM** repository! At Ubiai, we believe in the power of sharing knowledge to help everyone learn and grow. That’s why we’ve created this collection of video tutorials to guide you through different topics like fine-tuning models, improving decision-making abilities, and much more.
 ---
 ## 📌 Fine-Tuning LLaMA 3 for Psychology Question Answering Using LoRA and Unsloth  
-Learn how to fine-tune LLaMA 3 for psychology-related Q&A tasks using LoRA and Unsloth. 
-
+In this video, we show you how to improve the LLaMA 3 model for answering psychology-related questions. We use tools like LoRA and Unsloth to help the model focus on this specific task. This tutorial is perfect if you're interested in creating models that handle topics like mental health or psychology more effectively.
 <div align="center">  
   <a href="https://www.youtube.com/watch?v=RnF2007HqtY">  
     <img src="https://img.youtube.com/vi/RnF2007HqtY/0.jpg" alt="Fine-Tuning LLaMA 3" width="600">  
@@ -15,8 +13,7 @@ Learn how to fine-tune LLaMA 3 for psychology-related Q&A tasks using LoRA and U
 ---
 
 ## 📌 Fine-Tuning LLM for Agentic Reasoning  
-Explore how fine-tuning improves an LLM’s agentic reasoning and performance compared to a vanilla model.  
-
+This video explores how adjusting a large language model (LLM) can help it make better decisions and solve problems on its own. You’ll learn how to improve a model’s ability to reason and handle more complex tasks, making it smarter and more useful for real-world applications.
 <div align="center">  
   <a href="https://www.youtube.com/watch?v=6tkV4XJ91Bg">  
     <img src="https://img.youtube.com/vi/6tkV4XJ91Bg/0.jpg" alt="Fine-Tuning LLaMA 3" width="600">  
@@ -26,7 +23,7 @@ Explore how fine-tuning improves an LLM’s agentic reasoning and performance co
 ---
 
 ## 📌 Synthetic Data Generation for SQL Commands  
-Learn how to generate high-quality synthetic data for training SQL-related tasks.  
+This tutorial teaches you how to create synthetic data (fake but realistic data) to train models that work with SQL commands. If you’re building systems that deal with databases or SQL queries, this video will help you understand how to generate the right kind of data to improve the accuracy of your model.
 
 <div align="center">  
   <a href="https://www.youtube.com/watch?v=T8yYG0aFzz8&t=15s">  
@@ -36,7 +33,7 @@ Learn how to generate high-quality synthetic data for training SQL-related tasks
 
 ---
 ## 📌 No-Code Fine-Tuning Using UbiAI  
-Learn how to perform no-code fine-tuning with UbiAI to enhance model performance without needing to write custom code.   
+Not a coder? No problem! This video shows you how to fine-tune a model without writing any code, using UbiAI—a tool that makes the process simple and accessible. If you’re interested in improving a model's performance without the technical hassle, this tutorial is for you.
 
 <div align="center">  
   <a href="https://www.youtube.com/watch?v=_OX_T-2R5Ao&t=3s">  
@@ -47,7 +44,7 @@ Learn how to perform no-code fine-tuning with UbiAI to enhance model performance
 ---
 
 ## 📌 Fine-Tuning Qwen for Reliable Information Extraction from Documents  
-A step-by-step guide on making Qwen more reliable for document understanding tasks.  
+In this video, we walk you through improving the Qwen model to better understand and extract information from documents. Whether you're dealing with reports, research papers, or legal documents, this tutorial will show you how to make your model more accurate at pulling out important data from text.
 
 <div align="center">  
   <a href="https://www.youtube.com/watch?v=WbaYvZc4B1o&t=5s">  
@@ -57,7 +54,7 @@ A step-by-step guide on making Qwen more reliable for document understanding tas
 
 ---
 ## 📌 Fine-Tuning Qwen2.5 VL for Document Information Extraction  
-Learn how to fine-tune Qwen2.5 VL to extract structured information from documents.  
+If you want to take document information extraction to the next level, this tutorial shows you how to fine-tune the Qwen2.5 VL model. This version is even more powerful, and in this video, we’ll teach you how to make it better at pulling useful data from large documents.
 
 **Coming Soon!**
 
@@ -65,10 +62,10 @@ Learn how to fine-tune Qwen2.5 VL to extract structured information from documen
 
 ## 🔧 How to Use These Tutorials  
 
-1. **Watch the video** on YouTube.  
-2. **Follow along** with the corresponding Jupyter notebooks.  
-3. **Experiment** with the code and tweak it to your needs.  
-4. **Ask questions** in the GitHub discussions or YouTube comments.  
+1. **Watch the video** on YouTube: Click the thumbnails to watch each tutorial.  
+2. **Follow along** with the corresponding notebooks: Use the code or instructions provided to try things out yourself.
+3. **Experiment** with the code: Don’t be afraid to play around with the settings and see how it changes the results.  
+4. **Ask questions**:  If you're stuck or need clarification, drop a comment on the video or open an issue on GitHub.  
 
 ## 💬 Need Help?  
 
