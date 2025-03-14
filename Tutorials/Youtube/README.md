@@ -1,7 +1,7 @@
 # 🎥 YouTube Tutorials  
 
 
-Welcome to the **YouTube Tutorials** section of the **Ubiai Incorporated LLM** repository! At Ubiai, we believe in the power of sharing knowledge to help everyone learn and grow. That’s why we’ve created this collection of video tutorials to guide you through different topics like fine-tuning models, improving decision-making abilities, and much more.
+Welcome to the **YouTube Tutorials** section of the **Ubiai Incorporated LLM** repository! We’ve created this collection of video tutorials to guide you through different topics like fine-tuning models, improving decision-making abilities, and much more.
 
 ---
 ## 📌 Fine-Tuning LLaMA 3 for Psychology Question Answering Using LoRA and Unsloth  
