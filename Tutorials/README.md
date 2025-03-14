@@ -20,7 +20,7 @@ Explore the full playlist of **YouTube Tutorials** [here](https://github.com/ubi
 
 ## Webinar Recordings
 
-In addition to YouTube tutorials, we host **weekly webinars** with expert speakers from around the world. These webinars cover diverse subjects, including **model fine-tuning**, **fraud detection using AI**, and **techniques for improving model efficiency**. They’re an excellent opportunity to dive deeper into the topics and interact with experts in real-time.
+In addition to YouTube tutorials, we host **weekly webinars** with expert speakers from around the world. These webinars cover diverse subjects, including **model fine-tuning**, **fraud detection using AI**, and **techniques for improving model efficiency**. They’re an excellent opportunity to interact with experts.
 
 Check out the full list of **Webinar Recordings** [here](https://github.com/ubiai-incorporated/LLM/tree/main/Tutorials/Webinars).
 
