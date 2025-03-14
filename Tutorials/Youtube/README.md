@@ -8,7 +8,7 @@ Welcome to the **YouTube Tutorials** section of the **Ubiai Incorporated LLM** r
 In this video, we show you how to improve the LLaMA 3 model for answering psychology-related questions. We use tools like LoRA and Unsloth to help the model focus on this specific task. This tutorial is perfect if you're interested in creating models that handle topics like mental health or psychology more effectively.
 <div align="center">  
   <a href="https://www.youtube.com/watch?v=RnF2007HqtY">  
-    <img src="https://img.youtube.com/vi/RnF2007HqtY/0.jpg" alt="Fine-Tuning LLaMA 3" width="600">  
+    <img src="https://img.youtube.com/vi/RnF2007HqtY/0.jpg" alt="Fine-Tuning LLaMA 3" width="600" hight="300">  
   </a>  
 </div>  
 
