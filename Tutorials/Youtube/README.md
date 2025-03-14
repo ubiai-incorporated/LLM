@@ -44,16 +44,22 @@ A step-by-step guide on making Qwen more reliable for document understanding tas
 ## 📌 RAFT RAG and Fine-Tuning  
 Understand RAFT, RAG, and how fine-tuning enhances retrieval capabilities.  
 
-[![RAFT RAG and Fine-Tuning](https://img.youtube.com/vi/VIDEO_ID_5/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_5)  
-👉 [Watch on YouTube](https://www.youtube.com/watch?v=VIDEO_ID_5)  
+<div align="center">  
+  <a href="https://www.youtube.com/watch?v=WbaYvZc4B1o&t=5s">  
+    <img src="https://img.youtube.com/vi/WbaYvZc4B1o/0.jpg" alt="Fine-Tuning LLaMA 3" width="600">  
+  </a>  
+</div>  
 
 ---
 
 ## 📌 Synthetic Data Generation for SQL Commands  
 Learn how to generate high-quality synthetic data for training SQL-related tasks.  
 
-[![Synthetic Data Generation](https://img.youtube.com/vi/VIDEO_ID_6/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_6)  
-👉 [Watch on YouTube](https://www.youtube.com/watch?v=VIDEO_ID_6)  
+<div align="center">  
+  <a href="https://www.youtube.com/watch?v=T8yYG0aFzz8&t=15s">  
+    <img src="https://img.youtube.com/vi/T8yYG0aFzz8/0.jpg" alt="Fine-Tuning LLaMA 3" width="600">  
+  </a>  
+</div>  
 
 ---
 
