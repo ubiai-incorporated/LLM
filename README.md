@@ -145,7 +145,7 @@ Written by AI professionals who’ve been in the trenches, this book gives you a
 
 
 
-## 🚀 **Join Us on Social Media**
+## **Join Us on Social Media**
 
 Stay connected with **Ubiai** and be part of our growing AI community:
 
