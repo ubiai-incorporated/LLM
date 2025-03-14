@@ -18,7 +18,7 @@ In this session, we explore the process of fine-tuning **Large Language Models (
 ---
 
 ## 📌 **AI Agents for Fraud Detection**  
-In this webinar, we discuss how AI agents can be leveraged for detecting fraudulent activity. From analyzing patterns to automating decision-making, our expert takes you through the capabilities of AI agents in identifying fraud risks and enhancing security measures.
+In this webinar, we discuss how AI agents can be used for detecting fraudulent activity. From analyzing patterns to automating decision-making, our expert takes you through the capabilities of AI agents in identifying fraud risks and enhancing security measures.
 
 <div align="center">  
   <a href="https://www.youtube.com/watch?v=DdK79jkdKf0">  
@@ -29,7 +29,7 @@ In this webinar, we discuss how AI agents can be leveraged for detecting fraudul
 ---
 
 ## 📌 **SLM Distillation for Higher Accuracy and Cost Efficiency**  
-This webinar dives into **SLM (Semi-supervised Learning Model) distillation**, a powerful technique for improving model accuracy while reducing computational costs. Our expert walks you through how distillation helps in creating smaller, more efficient models that maintain high performance.
+This webinar explores **SLM (Semi-supervised Learning Model) distillation**, a powerful technique for improving model accuracy while reducing computational costs. Our expert walks you through how distillation helps in creating smaller, more efficient models that maintain high performance.
 
 <div align="center">  
   <a href="https://www.youtube.com/watch?v=qq-Gam0kRNo">  
@@ -41,8 +41,7 @@ This webinar dives into **SLM (Semi-supervised Learning Model) distillation**, a
 
 ## 💬 Stay Connected
 
-We encourage you to engage with the content and connect with other learners. If you have any questions or thoughts, feel free to leave a comment on the YouTube videos or reach out via our social media channels.
+We encourage you to engage with the content and connect with other learners. If you have any questions or thoughts, feel free to leave a comment on the YouTube videos or reach out via our social media channels. By continuing to watch and engage with our webinars, you’ll be part of a growing community committed to advancing knowledge and innovation in AI.
 
-Stay tuned for more insightful webinars every week!
 
 ---
