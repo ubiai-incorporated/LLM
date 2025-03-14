@@ -16,7 +16,7 @@ Explore how fine-tuning improves an LLM’s agentic reasoning and performance co
 
 <div align="center">  
   <a href="https://www.youtube.com/watch?v=6tkV4XJ91Bg">  
-    <img src="https://img.youtube.com/vi/RnF2007HqtY/0.jpg" alt="Fine-Tuning LLaMA 3" width="600">  
+    <img src="https://img.youtube.com/vi/6tkV4XJ91Bg/0.jpg" alt="Fine-Tuning LLaMA 3" width="600">  
   </a>  
 </div>  
 
