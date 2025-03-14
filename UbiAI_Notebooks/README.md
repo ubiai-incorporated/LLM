@@ -29,9 +29,9 @@ We recommend starting with the introductory notebooks and progressing to the adv
 
 Below is a list of the notebooks and the key concepts each one covers. You can progress through these notebooks in order, or jump directly to a topic that interests you.
 
-| **Lesson** | **Category**             | **Description**                                                                 | **Source Code**              |
+| **Lesson** | **Name**                 | **Description**                                                                 | **Source Code**              |
 |------------|--------------------------|---------------------------------------------------------------------------------|------------------------------|
-| 1          |        | U                  | |
+| 1          |Fine_Tuning_LLaMA_3_for_Psychology_Question_Answering_Using_LoRA_and_Unsloth | How to finetune a language model using unsloth      | https://github.com/ubiai-incorporated/LLM/blob/main/UbiAI_Notebooks/Fine_Tuning_LLaMA_3_for_Psychology_Question_Answering_Using_LoRA_and_Unsloth.ipynb|
 
 
 
