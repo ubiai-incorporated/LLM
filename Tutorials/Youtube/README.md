@@ -22,11 +22,24 @@ Explore how fine-tuning improves an LLM’s agentic reasoning and performance co
 
 ---
 
-## 📌 Fine-Tuning Qwen2.5 VL for Document Information Extraction  
-Learn how to fine-tune Qwen2.5 VL to extract structured information from documents.  
+## 📌 Synthetic Data Generation for SQL Commands  
+Learn how to generate high-quality synthetic data for training SQL-related tasks.  
 
-[![Fine-Tuning Qwen2.5 VL](https://img.youtube.com/vi/VIDEO_ID_3/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_3)  
-👉 [Watch on YouTube](https://www.youtube.com/watch?v=VIDEO_ID_3)  
+<div align="center">  
+  <a href="https://www.youtube.com/watch?v=T8yYG0aFzz8&t=15s">  
+    <img src="https://img.youtube.com/vi/T8yYG0aFzz8/0.jpg" alt="Fine-Tuning LLaMA 3" width="600">  
+  </a>  
+</div>  
+
+---
+## 📌 No-Code Fine-Tuning Using UbiAI  
+Learn how to perform no-code fine-tuning with UbiAI to enhance model performance without needing to write custom code.   
+
+<div align="center">  
+  <a href="https://www.youtube.com/watch?v=_OX_T-2R5Ao&t=3s">  
+    <img src="https://img.youtube.com/vi/_OX_T-2R5Ao/0.jpg" alt="Fine-Tuning LLaMA 3" width="600">  
+  </a>  
+</div>  
 
 ---
 
@@ -40,26 +53,10 @@ A step-by-step guide on making Qwen more reliable for document understanding tas
 </div>  
 
 ---
+## 📌 Fine-Tuning Qwen2.5 VL for Document Information Extraction  
+Learn how to fine-tune Qwen2.5 VL to extract structured information from documents.  
 
-## 📌 RAFT RAG and Fine-Tuning  
-Understand RAFT, RAG, and how fine-tuning enhances retrieval capabilities.  
-
-<div align="center">  
-  <a href="https://www.youtube.com/watch?v=WbaYvZc4B1o&t=5s">  
-    <img src="https://img.youtube.com/vi/WbaYvZc4B1o/0.jpg" alt="Fine-Tuning LLaMA 3" width="600">  
-  </a>  
-</div>  
-
----
-
-## 📌 Synthetic Data Generation for SQL Commands  
-Learn how to generate high-quality synthetic data for training SQL-related tasks.  
-
-<div align="center">  
-  <a href="https://www.youtube.com/watch?v=T8yYG0aFzz8&t=15s">  
-    <img src="https://img.youtube.com/vi/T8yYG0aFzz8/0.jpg" alt="Fine-Tuning LLaMA 3" width="600">  
-  </a>  
-</div>  
+**Coming Soon!**
 
 ---
 
