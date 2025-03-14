@@ -1,57 +1,73 @@
-# Notebooks
+# YouTube Tutorials  
 
-Welcome to the **Notebooks** section of the **Ubiai Incorporated LLM** repository! This area is dedicated to interactive, hands-on learning with Large Language Models (LLMs) through practical examples, experiments, and guided tutorials.
+Welcome to the **YouTube Tutorials** section of the **Ubiai Incorporated LLM** repository! This section provides video walkthroughs for various LLM-related topics, guiding you through fine-tuning, retrieval-augmented generation (RAG), agentic reasoning, and more.  
 
-## About This Section
+---
 
-In this folder, you'll find a collection of well-documented notebooks designed to help you learn about:
-- **Model Exploration and Analysis**
-- **Data Generation and Processing**
-- **Fine-Tuning and Customization of Models**
-- **Evaluation and Testing of Model Performance**
-- **Advanced Applications (e.g., RAG, Agents, and more)**
+## 📌 Fine-Tuning LLaMA 3 for Psychology Question Answering Using LoRA and Unsloth  
+Learn how to fine-tune LLaMA 3 for psychology-related Q&A tasks using LoRA and Unsloth.  
 
-Whether you're a beginner eager to learn the basics or an advanced practitioner looking to refine your skills, these notebooks provide valuable insights and actionable code.
+[![Fine-Tuning LLaMA 3](https://img.youtube.com/vi/VIDEO_ID_1/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_1)  
+👉 [Watch on YouTube](https://www.youtube.com/watch?v=VIDEO_ID_1)  
 
-## 🧑‍💻 How You Will Learn
+---
 
-This section contains practical examples that will guide you through key concepts of working with LLMs. The materials in these notebooks are designed to be self-paced, and you can progress through them at your own speed. Each notebook is self-contained and richly commented, designed to guide you through various aspects of LLMs.
+## 📌 Fine-Tuning LLM for Agentic Reasoning  
+Explore how fine-tuning improves an LLM’s agentic reasoning and performance compared to a vanilla model.  
 
-You will:
+[![Fine-Tuning LLM for Agentic Reasoning](https://img.youtube.com/vi/VIDEO_ID_2/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_2)  
+👉 [Watch on YouTube](https://www.youtube.com/watch?v=VIDEO_ID_2)  
 
-- **Learn by doing**: Each notebook provides hands-on lessons with working code examples. You can easily replicate the code and experiment with your own setups.
-- **Work with real-world scenarios**: Learn how to apply LLMs to practical use cases, from simple analysis to more advanced applications like RAG systems.
-- **Expand your knowledge**: As you explore these notebooks, you’ll encounter both basic principles and advanced techniques, giving you a deep understanding of LLMs and their capabilities.
+---
 
-We recommend starting with the introductory notebooks and progressing to the advanced topics as you build your knowledge.
+## 📌 Fine-Tuning Qwen2.5 VL for Document Information Extraction  
+Learn how to fine-tune Qwen2.5 VL to extract structured information from documents.  
 
-## 📚 Notebooks Breakdown
+[![Fine-Tuning Qwen2.5 VL](https://img.youtube.com/vi/VIDEO_ID_3/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_3)  
+👉 [Watch on YouTube](https://www.youtube.com/watch?v=VIDEO_ID_3)  
 
-Below is a list of the notebooks and the key concepts each one covers. You can progress through these notebooks in order, or jump directly to a topic that interests you.
+---
 
+## 📌 Fine-Tuning Qwen for Reliable Information Extraction from Documents  
+A step-by-step guide on making Qwen more reliable for document understanding tasks.  
 
-| **Lesson** | **Name**                 | **Description**                                                                 | **Source Code**              |
-|------------|--------------------------|---------------------------------------------------------------------------------|------------------------------|
-| 1          | Fine-Tuning LLaMA 3 for Psychology Question Answering Using LoRA and Unsloth | Learn how to fine-tune LLaMA 3 for psychology-related Q&A tasks using LoRA and Unsloth. | [Link](https://github.com/ubiai-incorporated/LLM/blob/main/UbiAI_Notebooks/Fine_Tuning_LLaMA_3_for_Psychology_Question_Answering_Using_LoRA_and_Unsloth.ipynb) |
-| 2          | Fine-Tuning LLM for Agentic Reasoning | Explore how fine-tuning improves an LLM’s agentic reasoning and performance compared to a vanilla model. | [Link](https://github.com/ubiai-incorporated/LLM/blob/main/UbiAI_Notebooks/Fine_tune_LLM_for_agentic_reasoning_to_demonstrate_better_performance_compared_to_vanilla_LLMs.ipynb) |
-| 3          | Fine-Tuning Qwen2.5 VL for Document Information Extraction | Learn to fine-tune Qwen2.5 VL for extracting structured information from documents. | [Link](https://github.com/ubiai-incorporated/LLM/blob/main/UbiAI_Notebooks/Fine_tuning_Qwen2_5_VL_for_Document_Information_Extraction%20(1).ipynb) |
-| 4          | Fine-Tuning Qwen for Reliable Information Extraction from Documents | Improve Qwen’s ability to extract reliable information from various document formats. | [Link](https://github.com/ubiai-incorporated/LLM/blob/main/UbiAI_Notebooks/Finetuning_Qwen_for_Reliable_Information_Extraction_From_Documents%20(1).ipynb) |
-| 5          | RAFT, RAG, and Fine-Tuning Notebook | A comprehensive guide on combining RAFT, Retrieval-Augmented Generation (RAG), and fine-tuning. | [Link](https://github.com/ubiai-incorporated/LLM/blob/main/UbiAI_Notebooks/RAFT_RAG_and_Finetuning_Notebook.ipynb) |
-| 6          | Synthetic Data Generation for SQL Commands | Learn to generate synthetic data to create SQL queries and enhance database-driven applications. | [Link](https://github.com/ubiai-incorporated/LLM/blob/main/UbiAI_Notebooks/Synthetic_Data_Generation_for_SQL_Commands_.ipynb) |
+[![Fine-Tuning Qwen](https://img.youtube.com/vi/VIDEO_ID_4/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_4)  
+👉 [Watch on YouTube](https://www.youtube.com/watch?v=VIDEO_ID_4)  
 
+---
 
-## **Running The Notebooks**
-To run these notebooks in a cloud environment, simply open the files using Google Colab. You can either upload the notebook or use the “Open in Colab” option if provided.
+## 📌 RAFT RAG and Fine-Tuning  
+Understand RAFT, RAG, and how fine-tuning enhances retrieval capabilities.  
 
+[![RAFT RAG and Fine-Tuning](https://img.youtube.com/vi/VIDEO_ID_5/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_5)  
+👉 [Watch on YouTube](https://www.youtube.com/watch?v=VIDEO_ID_5)  
 
-## 💬 Ask For Support
+---
 
-Have questions or encountering issues? We are here to help!
+## 📌 Synthetic Data Generation for SQL Commands  
+Learn how to generate high-quality synthetic data for training SQL-related tasks.  
 
-If you face any problems or need clarification, open a GitHub issue for:
+[![Synthetic Data Generation](https://img.youtube.com/vi/VIDEO_ID_6/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_6)  
+👉 [Watch on YouTube](https://www.youtube.com/watch?v=VIDEO_ID_6)  
 
-- **Questions about the notebooks**
-- **Technical troubleshooting**
-- **Clarification of concepts**
+---
+
+## 🔧 How to Use These Tutorials  
+
+1. **Watch the video** on YouTube.  
+2. **Follow along** with the corresponding Jupyter notebooks.  
+3. **Experiment** with the code and tweak it to your needs.  
+4. **Ask questions** in the GitHub discussions or YouTube comments.  
+
+## 💬 Need Help?  
+
+If you have any questions or run into issues, feel free to:  
+
+- Open a GitHub issue.  
+- Drop a comment on the YouTube video.  
+- Reach out via our social channels.  
+
+🚀 Happy Learning!  
+
 
 We encourage you to provide as much detail as possible so we can assist you effectively.
