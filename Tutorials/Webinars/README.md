@@ -1,57 +1,48 @@
-# Notebooks
+# 🎥 Webinar Recordings
 
-Welcome to the **Notebooks** section of the **Ubiai Incorporated LLM** repository! This area is dedicated to interactive, hands-on learning with Large Language Models (LLMs) through practical examples, experiments, and guided tutorials.
+## 🗓️ Weekly Webinars
 
-## About This Section
+Every week, Ubiai hosts webinars featuring renowned experts and thought leaders from around the world. These webinars cover a wide range of topics. Whether you're a beginner or an experienced professional, our webinars provide valuable insights and learning opportunities.
 
-In this folder, you'll find a collection of well-documented notebooks designed to help you learn about:
-- **Model Exploration and Analysis**
-- **Data Generation and Processing**
-- **Fine-Tuning and Customization of Models**
-- **Evaluation and Testing of Model Performance**
-- **Advanced Applications (e.g., RAG, Agents, and more)**
+---
 
-Whether you're a beginner eager to learn the basics or an advanced practitioner looking to refine your skills, these notebooks provide valuable insights and actionable code.
+## 📌 **Fine-Tuning LLMs on Your Own Data**  
+In this session, we explore the process of fine-tuning **Large Language Models (LLMs)** on your own data to enhance performance for specific tasks. Our expert explains the techniques and best practices for adapting LLMs to your unique needs, helping you create more accurate and reliable models.
 
-## 🧑‍💻 How You Will Learn
+<div align="center">  
+  <a href="https://www.youtube.com/watch?v=z7XKib0cbW0&t=1s">  
+    <img src="https://img.youtube.com/vi/z7XKib0cbW0/0.jpg" alt="Fine-Tuning LLMs on Your Own Data" width="600">  
+  </a>  
+</div>
 
-This section contains practical examples that will guide you through key concepts of working with LLMs. The materials in these notebooks are designed to be self-paced, and you can progress through them at your own speed. Each notebook is self-contained and richly commented, designed to guide you through various aspects of LLMs.
+---
 
-You will:
+## 📌 **AI Agents for Fraud Detection**  
+In this webinar, we discuss how AI agents can be leveraged for detecting fraudulent activity. From analyzing patterns to automating decision-making, our expert takes you through the capabilities of AI agents in identifying fraud risks and enhancing security measures.
 
-- **Learn by doing**: Each notebook provides hands-on lessons with working code examples. You can easily replicate the code and experiment with your own setups.
-- **Work with real-world scenarios**: Learn how to apply LLMs to practical use cases, from simple analysis to more advanced applications like RAG systems.
-- **Expand your knowledge**: As you explore these notebooks, you’ll encounter both basic principles and advanced techniques, giving you a deep understanding of LLMs and their capabilities.
+<div align="center">  
+  <a href="https://www.youtube.com/watch?v=DdK79jkdKf0">  
+    <img src="https://img.youtube.com/vi/DdK79jkdKf0/0.jpg" alt="AI Agents for Fraud Detection" width="600">  
+  </a>  
+</div>
 
-We recommend starting with the introductory notebooks and progressing to the advanced topics as you build your knowledge.
+---
 
-## 📚 Notebooks Breakdown
+## 📌 **SLM Distillation for Higher Accuracy and Cost Efficiency**  
+This webinar dives into **SLM (Semi-supervised Learning Model) distillation**, a powerful technique for improving model accuracy while reducing computational costs. Our expert walks you through how distillation helps in creating smaller, more efficient models that maintain high performance.
 
-Below is a list of the notebooks and the key concepts each one covers. You can progress through these notebooks in order, or jump directly to a topic that interests you.
+<div align="center">  
+  <a href="https://www.youtube.com/watch?v=qq-Gam0kRNo">  
+    <img src="https://img.youtube.com/vi/qq-Gam0kRNo/0.jpg" alt="SLM Distillation for Accuracy and Cost Efficiency" width="600">  
+  </a>  
+</div>
 
+---
 
-| **Lesson** | **Name**                 | **Description**                                                                 | **Source Code**              |
-|------------|--------------------------|---------------------------------------------------------------------------------|------------------------------|
-| 1          | Fine-Tuning LLaMA 3 for Psychology Question Answering Using LoRA and Unsloth | Learn how to fine-tune LLaMA 3 for psychology-related Q&A tasks using LoRA and Unsloth. | [Link](https://github.com/ubiai-incorporated/LLM/blob/main/UbiAI_Notebooks/Fine_Tuning_LLaMA_3_for_Psychology_Question_Answering_Using_LoRA_and_Unsloth.ipynb) |
-| 2          | Fine-Tuning LLM for Agentic Reasoning | Explore how fine-tuning improves an LLM’s agentic reasoning and performance compared to a vanilla model. | [Link](https://github.com/ubiai-incorporated/LLM/blob/main/UbiAI_Notebooks/Fine_tune_LLM_for_agentic_reasoning_to_demonstrate_better_performance_compared_to_vanilla_LLMs.ipynb) |
-| 3          | Fine-Tuning Qwen2.5 VL for Document Information Extraction | Learn to fine-tune Qwen2.5 VL for extracting structured information from documents. | [Link](https://github.com/ubiai-incorporated/LLM/blob/main/UbiAI_Notebooks/Fine_tuning_Qwen2_5_VL_for_Document_Information_Extraction%20(1).ipynb) |
-| 4          | Fine-Tuning Qwen for Reliable Information Extraction from Documents | Improve Qwen’s ability to extract reliable information from various document formats. | [Link](https://github.com/ubiai-incorporated/LLM/blob/main/UbiAI_Notebooks/Finetuning_Qwen_for_Reliable_Information_Extraction_From_Documents%20(1).ipynb) |
-| 5          | RAFT, RAG, and Fine-Tuning Notebook | A comprehensive guide on combining RAFT, Retrieval-Augmented Generation (RAG), and fine-tuning. | [Link](https://github.com/ubiai-incorporated/LLM/blob/main/UbiAI_Notebooks/RAFT_RAG_and_Finetuning_Notebook.ipynb) |
-| 6          | Synthetic Data Generation for SQL Commands | Learn to generate synthetic data to create SQL queries and enhance database-driven applications. | [Link](https://github.com/ubiai-incorporated/LLM/blob/main/UbiAI_Notebooks/Synthetic_Data_Generation_for_SQL_Commands_.ipynb) |
+## 💬 Stay Connected
 
+We encourage you to engage with the content and connect with other learners. If you have any questions or thoughts, feel free to leave a comment on the YouTube videos or reach out via our social media channels.
 
-## **Running The Notebooks**
-To run these notebooks in a cloud environment, simply open the files using Google Colab. You can either upload the notebook or use the “Open in Colab” option if provided.
+Stay tuned for more insightful webinars every week!
 
-
-## 💬 Ask For Support
-
-Have questions or encountering issues? We are here to help!
-
-If you face any problems or need clarification, open a GitHub issue for:
-
-- **Questions about the notebooks**
-- **Technical troubleshooting**
-- **Clarification of concepts**
-
-We encourage you to provide as much detail as possible so we can assist you effectively.
+---
