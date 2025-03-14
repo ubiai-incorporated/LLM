@@ -29,10 +29,15 @@ We recommend starting with the introductory notebooks and progressing to the adv
 
 Below is a list of the notebooks and the key concepts each one covers. You can progress through these notebooks in order, or jump directly to a topic that interests you.
 
+
 | **Lesson** | **Name**                 | **Description**                                                                 | **Source Code**              |
 |------------|--------------------------|---------------------------------------------------------------------------------|------------------------------|
-| 1          |Fine_Tuning_LLaMA_3_for_Psychology_Question_Answering_Using_LoRA_and_Unsloth | How to finetune a language model using unsloth      | https://github.com/ubiai-incorporated/LLM/blob/main/UbiAI_Notebooks/Fine_Tuning_LLaMA_3_for_Psychology_Question_Answering_Using_LoRA_and_Unsloth.ipynb|
-
+| 1          | Fine-Tuning LLaMA 3 for Psychology Question Answering Using LoRA and Unsloth | Learn how to fine-tune LLaMA 3 for psychology-related Q&A tasks using LoRA and Unsloth. | [Link](https://github.com/ubiai-incorporated/LLM/blob/main/UbiAI_Notebooks/Fine_Tuning_LLaMA_3_for_Psychology_Question_Answering_Using_LoRA_and_Unsloth.ipynb) |
+| 2          | Fine-Tuning LLM for Agentic Reasoning | Explore how fine-tuning improves an LLM’s agentic reasoning and performance compared to a vanilla model. | [Link](https://github.com/ubiai-incorporated/LLM/blob/main/UbiAI_Notebooks/Fine_tune_LLM_for_agentic_reasoning_to_demonstrate_better_performance_compared_to_vanilla_LLMs.ipynb) |
+| 3          | Fine-Tuning Qwen2.5 VL for Document Information Extraction | Learn to fine-tune Qwen2.5 VL for extracting structured information from documents. | [Link](https://github.com/ubiai-incorporated/LLM/blob/main/UbiAI_Notebooks/Fine_tuning_Qwen2_5_VL_for_Document_Information_Extraction%20(1).ipynb) |
+| 4          | Fine-Tuning Qwen for Reliable Information Extraction from Documents | Improve Qwen’s ability to extract reliable information from various document formats. | [Link](https://github.com/ubiai-incorporated/LLM/blob/main/UbiAI_Notebooks/Finetuning_Qwen_for_Reliable_Information_Extraction_From_Documents%20(1).ipynb) |
+| 5          | RAFT, RAG, and Fine-Tuning Notebook | A comprehensive guide on combining RAFT, Retrieval-Augmented Generation (RAG), and fine-tuning. | [Link](https://github.com/ubiai-incorporated/LLM/blob/main/UbiAI_Notebooks/RAFT_RAG_and_Finetuning_Notebook.ipynb) |
+| 6          | Synthetic Data Generation for SQL Commands | Learn to generate synthetic data to create SQL queries and enhance database-driven applications. | [Link](https://github.com/ubiai-incorporated/LLM/blob/main/UbiAI_Notebooks/Synthetic_Data_Generation_for_SQL_Commands_.ipynb) |
 
 
 ## **Running The Notebooks**
