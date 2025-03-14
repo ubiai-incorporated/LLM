@@ -41,7 +41,9 @@ This webinar explores **SLM (Semi-supervised Learning Model) distillation**, a p
 
 ## 💬 Stay Connected
 
-We encourage you to engage with the content and connect with other learners. If you have any questions or thoughts, feel free to leave a comment on the YouTube videos or reach out via our social media channels. By continuing to watch and engage with our webinars, you’ll be part of a growing community committed to advancing knowledge and innovation in AI.
+We encourage you to engage with the content and connect with other learners. If you have any questions or thoughts, feel free to leave a comment on the YouTube videos or reach out via our social media channels. 
+
+**By continuing to watch and engage with our webinars, you’ll be part of a growing community committed to advancing knowledge and innovation in AI.**
 
 
 ---
