@@ -14,8 +14,11 @@ Welcome to the **YouTube Tutorials** section of the **Ubiai Incorporated LLM** r
 ## 📌 Fine-Tuning LLM for Agentic Reasoning  
 Explore how fine-tuning improves an LLM’s agentic reasoning and performance compared to a vanilla model.  
 
-[![Fine-Tuning LLM for Agentic Reasoning](https://img.youtube.com/vi/VIDEO_ID_2/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_2)  
-👉 [Watch on YouTube](https://www.youtube.com/watch?v=VIDEO_ID_2)  
+<div align="center">  
+  <a href="https://www.youtube.com/watch?v=6tkV4XJ91Bg">  
+    <img src="https://img.youtube.com/vi/RnF2007HqtY/0.jpg" alt="Fine-Tuning LLaMA 3" width="600">  
+  </a>  
+</div>  
 
 ---
 
