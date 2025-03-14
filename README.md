@@ -32,7 +32,6 @@ To make sure everything is well-organized, here’s a quick breakdown of the str
 ├── /blogs
 ├── /notebooks
 │   └── colab
-├── /resources
 └── README.md
 ```
 
