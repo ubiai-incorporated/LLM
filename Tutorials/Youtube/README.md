@@ -7,9 +7,9 @@ Welcome to the **YouTube Tutorials** section of the **Ubiai Incorporated LLM** r
 ## 📌 Fine-Tuning LLaMA 3 for Psychology Question Answering Using LoRA and Unsloth  
 Learn how to fine-tune LLaMA 3 for psychology-related Q&A tasks using LoRA and Unsloth.  
 
-[![Fine-Tuning LLaMA 3](https://img.youtube.com/vi/VIDEO_ID_1/maxresdefault.jpg)](https://www.youtube.com/watch?v=RnF2007HqtY&t=16s)  
-👉 [Watch on YouTube](https://www.youtube.com/watch?v=RnF2007HqtY&t=16s)  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RnF2007HqtY" frameborder="0" allowfullscreen></iframe>  
 
+---
 ---
 
 ## 📌 Fine-Tuning LLM for Agentic Reasoning  
