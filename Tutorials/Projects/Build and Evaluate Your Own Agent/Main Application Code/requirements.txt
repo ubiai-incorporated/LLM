@@ -1,0 +1,24 @@
+# Streamlit UI
+streamlit==1.35.0
+streamlit-chat==0.1.1
+
+# LangChain and OpenAI LLM integration
+langchain==0.2.0
+langchain-openai==0.1.7
+
+# Microsoft Word document creation
+python-docx==1.1.0
+
+# Email sending
+smtplib3==0.3.0
+email-validator==2.1.0.post1
+
+# HTTP requests
+requests==2.31.0
+
+# For compatibility with LangChain memory & tools
+openai==1.31.0
+tqdm==4.66.4
+
+# (Optional) Logging and debugging
+rich==13.7.1
