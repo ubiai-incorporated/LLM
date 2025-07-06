@@ -54,9 +54,12 @@ In the code this is done by creating a persistent session using ConversationBuff
 
 
 ```python
+# Initialize session state with memory
 if 'chat_history' not in st.session_state:
     st.session_state.chat_history = []
     st.session_state.memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
+if 'last_output' not in st.session_state:
+    st.session_state.last_output = ""
 ```
 This may seem trivial, but this memory structure is what differentiates an agent from a one-off bot.
 
@@ -68,8 +71,7 @@ In the LangChain framework, this is done using Python decorators, specifically t
 
 Here’s a minimal example:
 
-
-    ```python
+```python
 from langchain.tools import tool
 
 @tool
@@ -82,75 +84,188 @@ This function is now a tool. The agent can “see” that it exists, read its de
 
 In the Startup Strategist project, we define several tools that help the agent support the user through key stages of the startup ideation process. Each tool is purpose-built and handles one specific task:
 
-Brainstorming Engine
+### Brainstorming Engine
 This tool uses a custom prompt sent to an external UBIAI model endpoint. It generates actionable startup ideas, breaking down abstract interests into tangible directions. This is particularly useful for non-technical founders who can describe what they care about, but not what business it could turn into.
 
+
+```python
 @tool
-def brainstorm_startup_ideas(interests: str, industry: str = "", skills: str = "") -> dict:
-    """Generate creative startup ideas based on interests, industry, and skills."""
-    user_prompt = f"""Generate creative and actionable startup ideas based on:
-    - Interests: {interests}
-    - Industry: {industry}
-    - Skills: {skills}"""
+def brainstorm_startup_ideas(
+    interests: str,
+    industry: str = "",
+    skills: str = "",
+    pain_points: str = ""
+) -> dict:
+    """Generate creative startup ideas based on interests, industry, skills, and pain points."""
+    url = ""
+    my_token = ""
 
+    user_prompt = f"""Generate creative and actionable startup or project ideas based on the following:
+- Interests: {interests}
+- Industry: {industry}
+- Skills: {skills}
+- Pain Points: {pain_points}
+Format the output clearly with bullet points or numbers."""
 
+    data = {
+        "input_text": "",
+        "system_prompt": "You are a helpful assistant who generates startup ideas tailored to user input.",
+        "user_prompt": user_prompt,
+        "temperature": 0.7,
+        "monitor_model": True,
+        "knowledge_base_ids": [],
+        "session_id": "",
+        "images_urls": []
+    }
+
+    try:
+        response = requests.post(url + my_token, json=data)
+        if response.status_code == 200:
+            res = response.json()
+            return {"ideas": res.get("output")}
+        else:
+            return {"error": f"{response.status_code} - {response.text}"}
+    except Exception as e:
+        return {"error": str(e)}
+
+```
 
 Notice how we guide the model with specific parameters and a structured prompt. This prevents vague suggestions and ties ideas directly to the user's context.
 
 
-Validating Startup Ideas
+### Validating Startup Ideas
 
 Many first-time entrepreneurs fall in love with their ideas without validating them. Our validate_idea uses a lean methodology framework and turns a basic description into an interactive validation checklist.
 
+```python
+
 @tool
-def validate_idea(idea_description, target_audience="", value_proposition="", assumptions=""):
+def validate_idea(
+    idea_description: str,
+    target_audience: str = "",
+    value_proposition: str = "",
+    assumptions: str = ""
+) -> dict:
+    """Validate a startup idea using lean startup framework and provide validation steps."""
+    url = ""
+    my_token = ""
 
-Instead of dumping startup theory, the agent produces practical validation steps based on assumptions and markets described.
+    user_prompt = f"""Validate the following idea using a lean startup framework. Provide a checklist or set of validation questions that help assess its feasibility.
 
-Business Modeling Assistant
-The generate_lean_canvas tool creates structured business models:
+Idea: {idea_description}
+Target Audience: {target_audience}
+Value Proposition: {value_proposition}
+Key Assumptions: {assumptions}
 
-user_prompt = f"""Create a Lean Canvas with sections:
-- Problem
-- Solution  
-- Key Metrics
-- Unique Value Proposition
-- Channels
-- Customer Segments
-- Cost Structure
-- Revenue Streams
-- Unfair Advantage"""
+Give practical and direct validation steps or criteria.
+"""
+
+    data = {
+        "input_text": "",
+        "system_prompt": "You are a lean startup expert helping users validate ideas realistically.",
+        "user_prompt": user_prompt,
+        "temperature": 0.7,
+        "monitor_model": True,
+        "knowledge_base_ids": [],
+        "session_id": "",
+        "images_urls": []
+    }
+
+    try:
+        response = requests.post(url + my_token, json=data)
+        if response.status_code == 200:
+            res = response.json()
+            return {"validation": res.get("output")}
+        else:
+            return {"error": f"{response.status_code} - {response.text}"}
+    except Exception as e:
+        return {"error": str(e)}
+```
 
 You can treat this as the equivalent of hiring a business consultant for the price of an API call.
 
-Backend Utilities: Exporting and Communicating
+**Same for the generate lean canvas tool!**
+
+## Backend Utilities: Exporting and Communicating
+
 What makes this agent useful in practice isn't just the ideation, it’s that it completes the loop. Once an idea is structured, users may want to:
 Save it as a Word document.
 
 
 Share it by email.
 
-
 Both actions are supported as tools.
-Saving to Word
-Using python-docx, the system formats output with headers and bullet points, then saves it locally:
-python
-CopierModifier
-@tool
-def save_to_word_doc(content, filename="business_canvas.docx"):
 
-Email Integration
-Business founders may want to send their canvas to a mentor, investor, or teammate. The send_email() tool uses SMTP over TLS, configured to work with Gmail or others:
-python
-CopierModifier
+### Saving to Word
+
+Using python-docx, the system formats output with headers and bullet points, then saves it locally:
+
+
+```python
 @tool
-def send_email(recipient_email, subject, body):
+def save_to_word_doc(content: str, filename: str = "business_canvas.docx") -> dict:
+    """Save text content to a Word document."""
+    try:
+        doc = Document()
+        doc.add_heading("Business Canvas Document", 0)
+        
+        # Use the last output if no specific content provided
+        if not content and st.session_state.last_output:
+            content = st.session_state.last_output
+            
+        for line in content.split('\n'):
+            doc.add_paragraph(line)
+        doc.save(filename)
+        return {"filename": filename, "message": f"Document saved as {filename}"}
+    except Exception as e:
+        return {"error": str(e)}
+```
+
+### Email Integration
+Business founders may want to send their canvas to a mentor, investor, or teammate. The send_email() tool uses SMTP over TLS, configured to work with Gmail or others:
+
+```python
+@tool
+def send_email(
+    recipient_email: str,
+    subject: str,
+    body: str,
+    sender_email: str = None,
+    sender_password: str = None
+) -> dict:
+    """Send an email using SMTP."""
+    try:
+        from_email = sender_email if sender_email else EMAIL_CONFIG["sender_email"]
+        password = sender_password if sender_password else EMAIL_CONFIG["sender_password"]
+
+        if not from_email or not password:
+            return {"error": "Email credentials not configured"}
+
+        msg = MIMEMultipart()
+        msg['From'] = from_email
+        msg['To'] = recipient_email
+        msg['Subject'] = subject
+        msg.attach(MIMEText(body, 'plain'))
+
+        server = smtplib.SMTP(EMAIL_CONFIG["smtp_server"], EMAIL_CONFIG["smtp_port"])
+        server.starttls()
+        server.login(from_email, password)
+        server.sendmail(from_email, recipient_email, msg.as_string())
+        server.quit()
+
+        return {"status": "success", "message": f"Email sent to {recipient_email}"}
+    except Exception as e:
+        return {"error": str(e)}
+```
+
 
 With minimal code, the agent becomes not just a thinking partner, but a working assistant.
 
-Registering Tools with the Agent
+## Registering Tools with the Agent
 Once the tools are defined, we pass them into the agent during initialization. This happens in the initialize_agent_executor() function:
 
+
+```python
 tools = [
     brainstorm_startup_ideas,
     validate_idea,
@@ -158,9 +273,13 @@ tools = [
     save_to_word_doc,
     send_email
 ]
+```
+
 
 We then provide this list to LangChain’s initialize_agent() method:
 
+
+```python
 return initialize_agent(
     tools,
     llm,
@@ -168,31 +287,39 @@ return initialize_agent(
     memory=st.session_state.memory,
     prompt=prompt
 )
+```
 
 With this setup, the agent is no longer just generating text — it’s choosing actions from a defined toolbox, passing arguments to those functions, and returning structured outputs
 Prompt Engineering with LangChain
 LangChain’s initialize_agent() function is where everything comes together. We define the logic using ChatPromptTemplate, add a MessagesPlaceholder for history, and let the agent reason which tool to use.
 
+
+```python
 prompt = ChatPromptTemplate.from_messages([
     ("system", "...strategist assistant..."),
     MessagesPlaceholder(variable_name="chat_history"),
     ("human", "{input}"),
     MessagesPlaceholder(variable_name="agent_scratchpad"),
 ])
+```
 
 This prompt setup is crucial: it frames the role of the agent, reinforces behavioral rules, and makes sure it responds with relevance.
 Finally, the agent is created with:
 
+
+```python
 initialize_agent(tools, llm, agent=AgentType.OPENAI_FUNCTIONS, memory=..., prompt=...)
+```
 
 This is the beating heart of our application.
-The Critical Need for Agent evaluation
-Building an agent that works is one thing. Knowing whether it’s working well, that’s a different challenge entirely. It’s easy to get excited when an agent completes a task or calls the right function. But is it doing the right task? Did it choose the best tool for the input? Was the response helpful, or just verbose? These aren’t binary outcomes. They require judgment. And in systems that blend reasoning, tool usage, and memory, quality is hard to pin down without a structured evaluation process.
+## The Critical Need for Agent evaluation
+
+Building an agent that works is one thing. Knowing whether it’s working well, that’s a different challenge entirely. It’s easy to get excited when an agent completes a task or calls the right function. **But is it doing the right task?** Did it choose the best tool for the input? Was the response helpful, or just verbose? These aren’t binary outcomes. They require judgment. And in systems that blend reasoning, tool usage, and memory, quality is hard to pin down without a structured evaluation process.
 
 This is where most developer workflows still fall short. We write agents, we test them ad hoc, and we adjust based on feel. But if we want to build agents we can trust in production, especially ones that make decisions on behalf of users, we need to treat evaluation as a first-class concern, not an afterthought.
 
 In the second part of this tutorial, we’ll explore what that looks like.
-We’ll walk through how to evaluate an agent’s behavior at the decision-making level using a technique called LLM-as-a-Judge. The idea is simple: we give a separate, neutral language model a transcript and ask it to grade the agent’s decisions, explanations, or tool usage. This lets us move beyond "did it run?" into "did it help?", and it allows us to run systematic comparisons between prompts, memory strategies, or tool designs.
+We’ll walk through how to evaluate an agent’s behavior at the decision-making level using a technique called **LLM-as-a-Judge**. The idea is simple: we give a separate, neutral language model a transcript and ask it to grade the agent’s decisions, explanations, or tool usage. This lets us move beyond "did it run?" into "did it help?", and it allows us to run systematic comparisons between prompts, memory strategies, or tool designs.
 
-Open the Agent_Evaluation.Ipynb to start learning!
+**Open the Agent_Evaluation.Ipynb to start learning!**
 
