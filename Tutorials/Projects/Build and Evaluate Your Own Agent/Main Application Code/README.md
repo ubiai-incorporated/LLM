@@ -1,4 +1,4 @@
-# 🚀 Startup Strategist – AI-Powered Business Ideation Assistant
+# Startup Strategist – AI-Powered Business Ideation Assistant
 
 Welcome to **Startup Strategist**, an AI-powered Streamlit chatbot that helps you brainstorm startup ideas, validate concepts using lean methodologies, generate lean canvases, save business documents, and send emails — all in a single app.
 
@@ -6,7 +6,7 @@ Welcome to **Startup Strategist**, an AI-powered Streamlit chatbot that helps yo
 
 ---
 
-## 🌟 Features
+## Features
 
 - 💡 **Brainstorm Startup Ideas** based on your interests, skills, and pain points.
 - ✅ **Validate Ideas** using lean startup principles and structured checklists.
