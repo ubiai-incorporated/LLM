@@ -1,7 +1,5 @@
 # Building an AI Agent Startup Strategist
 
-## The Problem of Startup Inception
-
 For the past few years humanity has been at an odd crossroads in tech. Everyone’s talking about “AI this” and “LLM that,” but behind all the buzz, most tools still feel like flashy demos. They answer questions, write summaries, maybe generate some code, and then what? We’re still the one doing the heavy lifting: having to fact check, use tools and put it all together.
 
 But something interesting is happening recently.
