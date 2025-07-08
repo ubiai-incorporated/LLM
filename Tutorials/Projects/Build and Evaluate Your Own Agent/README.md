@@ -310,7 +310,8 @@ initialize_agent(tools, llm, agent=AgentType.OPENAI_FUNCTIONS, memory=..., promp
 ```
 
 This is the beating heart of our application.
-Here is a quick look at the application:
+
+**Here is a quick look at the application:**
 
 ![image](https://github.com/user-attachments/assets/f5ab7dfd-1266-418b-9060-4c46441db13a)
 
