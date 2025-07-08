@@ -310,6 +310,13 @@ initialize_agent(tools, llm, agent=AgentType.OPENAI_FUNCTIONS, memory=..., promp
 ```
 
 This is the beating heart of our application.
+Here is a quick look at the application:
+
+![image](https://github.com/user-attachments/assets/f5ab7dfd-1266-418b-9060-4c46441db13a)
+
+![image](https://github.com/user-attachments/assets/86831db1-42f9-4d6d-9bf6-d43888221763)
+
+
 ## The Critical Need for Agent evaluation
 
 Building an agent that works is one thing. Knowing whether it’s working well, that’s a different challenge entirely. It’s easy to get excited when an agent completes a task or calls the right function. **But is it doing the right task?** Did it choose the best tool for the input? Was the response helpful, or just verbose? These aren’t binary outcomes. They require judgment. And in systems that blend reasoning, tool usage, and memory, quality is hard to pin down without a structured evaluation process.
